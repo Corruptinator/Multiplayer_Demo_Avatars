@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://TILES.tres" type="TileSet" id=1]
+
+[node name="World" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="." index="0"]
+
+mode = 0
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 64, 64 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0, 65536, 0, 0, 65551, 0, 0, 131072, 0, 0, 131075, 0, 0, 131079, 0, 0, 131080, 0, 0, 131084, 0, 0, 131087, 0, 0, 196608, 0, 0, 196611, 0, 0, 196615, 0, 0, 196616, 0, 0, 196620, 0, 0, 196623, 0, 0, 262144, 0, 0, 262145, 0, 0, 262146, 0, 0, 262147, 0, 0, 262156, 0, 0, 262157, 0, 0, 262158, 0, 0, 262159, 0, 0, 327680, 0, 0, 327683, 0, 0, 327687, 0, 0, 327688, 0, 0, 327692, 0, 0, 327695, 0, 0, 393216, 0, 0, 393219, 0, 0, 393223, 0, 0, 393224, 0, 0, 393228, 0, 0, 393231, 0, 0, 458752, 0, 0, 458767, 0, 0, 524288, 0, 0, 524289, 0, 0, 524290, 0, 0, 524291, 0, 0, 524292, 0, 0, 524293, 0, 0, 524294, 0, 0, 524295, 0, 0, 524296, 0, 0, 524297, 0, 0, 524298, 0, 0, 524299, 0, 0, 524300, 0, 0, 524301, 0, 0, 524302, 0, 0, 524303, 0, 0 )
+
+[node name="Spawn_Points" type="Node2D" parent="." index="1"]
+
+[node name="Position2D" type="Position2D" parent="Spawn_Points" index="0" groups=[
+"spawn",
+]]
+
+position = Vector2( 129.67, 192.047 )
+
+[node name="Position2D2" type="Position2D" parent="Spawn_Points" index="1" groups=[
+"spawn",
+]]
+
+position = Vector2( 893.89, 190.34 )
+
+[node name="Position2D3" type="Position2D" parent="Spawn_Points" index="2" groups=[
+"spawn",
+]]
+
+position = Vector2( 128.963, 386.12 )
+
+[node name="Position2D4" type="Position2D" parent="Spawn_Points" index="3" groups=[
+"spawn",
+]]
+
+position = Vector2( 894.255, 383.852 )
+
+
