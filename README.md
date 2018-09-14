@@ -5,6 +5,8 @@ The goal of the project: To implement Remote Controllable Avatar Nodes that when
 
 ![Demoscreen](https://github.com/Corruptinator/Multiplayer_Demo_Avatars/blob/master/demoscreen.png)
 
+Controls: (Arrow Keys) Up, Down, Left, and Right movement.  (E) Spawn player.
+
 To get started:
 
 1) Open up Godot and load up the project, do it again to have two engine instances running to test out the multiplayer.
