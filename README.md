@@ -3,6 +3,8 @@ A personal learning project in implementing Avatar Multiplayer Nodes in Godot.
 
 The goal of the project: To implement Remote Controllable Avatar Nodes that when despawned or queue_free()'d from instance it will not cause the network code to crash the game.
 
+![Demoscreen](https://github.com/Corruptinator/Multiplayer_Demo_Avatars/blob/master/demoscreen.png)
+
 To get started:
 
 1) Open up Godot and load up the project, do it again to have two engine instances running to test out the multiplayer.
